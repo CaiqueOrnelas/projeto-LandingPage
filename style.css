@@ -1,7 +1,7 @@
 
 *{ 
     margin: 0px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
 
 }
 
@@ -25,9 +25,21 @@
  
  #menuSuperior{
     background-image: url(./imagens/fundoMenu.svg);
-    color: white;
+    color: aliceblue;
  }
 
  #menuInformacional{
     background-color: #eaece5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+ }
+ .icone{
+   margin: 50px 0px 50px 100px;
+
+ }
+ .textoInformativo{
+   margin: 50px 50px 50px 75px;
+   display: flex;
+   align-items: center;
  }
